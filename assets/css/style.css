@@ -108,11 +108,11 @@ body
     }
     .Stats .Name
     {
-        font-size: 200%;
+        font-size: 150%;
     }
     .Stats button
     {
-        font-size: 200%;
+        font-size: 150%;
         padding: 2%;
         border-radius: 10px;
     }
