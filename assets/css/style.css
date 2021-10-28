@@ -75,3 +75,45 @@ body
     border-radius: 20px;
     text-align: center;
 }
+
+@media(max-width:480px)
+{
+    .Login_area input
+    {
+        font-size: 150%;
+    }
+    .Login_area button
+    {
+        font-size: 150%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    .Login_area
+    {
+        margin-top: 60%;
+    }
+    .Cell
+    {
+        width: 100px;
+        height: 100px;
+        font-size: 500%;
+    }
+    .Table
+    {
+        margin-top: 45%;
+    }
+    .Stats
+    {
+        margin-top: 70%;
+    }
+    .Stats .Name
+    {
+        font-size: 200%;
+    }
+    .Stats button
+    {
+        font-size: 200%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+}
