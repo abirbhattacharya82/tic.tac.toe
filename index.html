@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&display=swap" rel="stylesheet">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="Login_area" id="lg_area">
+        <input type="text" placeholder="Name of Player 1" id="p1"> <br>
+        <input type="text" placeholder="Name of Player 2" id="p2"> <br>
+        <button onclick="start()">Start</button>
+    </div>
+    <div class="Table" id="table">
+        <div class="Row">
+            <div class="Cell" id="a1" onclick="value_a1()">
+                
+            </div>
+            <div class="Cell" id="a2" onclick="value_a2()">
+                
+            </div>
+            <div class="Cell" id="a3" onclick="value_a3()">
+                
+            </div>
+        </div>
+        <div class="Row">
+            <div class="Cell" id="b1" onclick="value_b1()">
+
+            </div>
+            <div class="Cell" id="b2" onclick="value_b2()">
+                
+            </div>
+            <div class="Cell" id="b3" onclick="value_b3()">
+                
+            </div>
+        </div>
+        <div class="Row">
+            <div class="Cell" id="c1" onclick="value_c1()">
+
+            </div>
+            <div class="Cell" id="c2" onclick="value_c2()">
+                
+            </div>
+            <div class="Cell" id="c3" onclick="value_c3()">
+                
+            </div>
+        </div>
+    </div>
+    <div class="Stats" id="statistic">
+        <div class="Name">
+            <div class="player" id="winner"></div> Won the game
+        </div>
+        <button onclick="back()">Home</button>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
